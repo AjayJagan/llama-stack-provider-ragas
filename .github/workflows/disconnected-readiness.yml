@@ -6,7 +6,7 @@ on:
 
 jobs:
   check:
-    uses: opendatahub-io/disconnected-readiness-scorer/.github/workflows/reusable-check.yml@main
+    uses: AjayJagan/disconnected-readiness-scorer/.github/workflows/reusable-check.yml@main
     with:
       rules: "csv,tags,egress,manifest"
-      exceptions_config_path: ""
+      python_version: "3.12"
